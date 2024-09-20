@@ -1,0 +1,109 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+//video
+.video-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: -50px;
+    z-index: -1;
+
+
+    h1 {
+        position: absolute;
+        top:120px;
+        left: 20px;
+        color: #F5F7F8;
+        font-size: 2.5rem;
+        text-align: center;
+        z-index: 1;
+        font-weight: 700;
+    }
+
+    .button1 {
+        position: absolute;
+        color: #F5F7F8;
+        text-align: center;
+        z-index: 1;
+        top: 250px;
+        left: 20px;
+        display: flex;
+
+
+        .btn-main {
+            margin-right: 10px;
+            background-color: #FF0000;
+            text-decoration: none;
+            height: 30px;
+            color: $color-secondary;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 5px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            cursor: pointer;
+        }
+
+        .btn-main:hover {
+            background-color: white;
+            color: red;
+        }
+
+        .btn-main-second {
+            background-color: $color-secondary;
+            text-decoration: none;
+            color: #FF0000;
+            height: 30px;
+            font-size: 18px;
+            font-weight: 500;
+            border-radius: 5px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}
+
+.button2 {
+    position: absolute;
+    top: 320px;
+    left: 20px;
+    color: #F5F7F8;
+    text-align: center;
+    z-index: 1;
+    background-color: $color-secondary;
+    border-radius: 5px;
+
+    img {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 5px;
+        height: 30px;
+        width: auto;
+    }
+}
+
+.ccc {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    background-image: linear-gradient(black, gray);
+}
+
+
+#text{
+    color: red;
+    margin-top: 50px;
+}
+#text::after{
+   content: "|";
+   color: white;
+}

@@ -1,0 +1,108 @@
+@media only screen and (max-width: 600px) {
+
+    .second {
+        display: none
+    }
+
+    .video-container {
+        width: 100vw;
+        height: 100vh;
+
+        & h1 {
+            font-size: 1.7rem
+        }
+
+        .button1 {
+            left: 0;
+            float: left;
+
+
+            .btn-main {
+                font-size: 1rem;
+                text-align: center;
+            }
+        }
+
+        .button2 {
+            margin-left: 4rem;
+        }
+    }
+
+    .ccc {
+        width: 100vw;
+        height: 100vh
+    }
+
+    .card {
+        margin: 20px 0px
+    }
+
+    .exp-img {
+        display: none
+    }
+
+    .experience {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        gap: 0rem;
+        margin-left: -300px;
+        margin-top: -340px;
+    }
+
+    .experience-container {
+        width: 100vw;
+    }
+
+    .services-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-group input {
+        width: 180%;
+    }
+
+    .fa-bars {
+        color: white;
+        font-size: 2rem;
+    }
+};
+
+
+// code for media query to tablet screen
+
+
+@media only screen and (max-width: 1000px) {
+    .fa-bars {
+        color: white;
+        font-size: 2rem;
+    }
+    .second {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .fa-bars {
+        display: none;
+    }
+
+.navMenus{
+    font-size: 1rem;
+}
+
+}
